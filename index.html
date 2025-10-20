@@ -1,24 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pomodoro App</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Michael Joshua Sollestre - Portfolio</title>
 </head>
 <body>
-  <div id="root"></div>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">mjsollestre</a>
+    </div>
 
-  <!-- React (CDN) -->
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <div class="right">
+      
+      <a href="https://www.linkedin.com/in/mjsollestre/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=michaeljoshua.sollestre@gmail.com" target="_blank">
+  <i class="fa-solid fa-envelope"></i>
+  <span>Email</span>
+  </a>
 
-  <!-- App -->
-  <script src="script.js"></script>
+      <!-- Theme Toggle Buttons -->
+      <button class="theme-toggle" id="light-theme" title="Light Theme">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+      <button class="theme-toggle" id="dark-theme" title="Dark Theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Michael Joshua D. Sollestre </h2>
+
+<div class="container">
+<h1> Aspring <span class="auto-type"></span></h1>
+</div>
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+var typed = new Typed(".auto-type",{
+    strings : ["Web Designer", "Front-End Developer", "Network Engineer", "Software Engineer", "SEO Specialist"],
+    typeSpeed : 150,
+    backspeed : 150,
+    loop: true
+})
+
+</script>        
+
+        <p>I am a motivated Information Technology graduate with strong problem-solving skills. I have built a solid foundation in networking, programming, and database management through my studies.</p>
+
+        <div class="links">
+
+          <a href="#education">
+            <i class="fa-solid fa-school"></i>
+            <span>Education</span>
+          </a>
+
+          <a href="#skills">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#certificate">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>Certifications</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-pen"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+
+            <a href="SOLLESTRE RESUME 2025.pdf">
+            <i class="fa-solid fa-download"></i> Download Resume
+            </a>
+
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/hero-headshot.jpg" alt="mj headshot">
+      </div>
+    </section>
+
+  <!-- SECTION 2: Education -->
+ 
+       <section id="education" class="skills-section">
+      <h2>Education</h2>
+
+      <div class="cells">
+        <div class="cell">
+          <endl>
+         <b><span> Bachelor of Science in Information Technology</span></b> 
+         <p>De La Salle Lipa</p>
+          </div>
+
+          <div class="cell">
+          <endl>
+         <b><span> Science, Technology, Engineering, and Mathematics (STEM) </span></b> 
+         <p>International School for Better Beginnings Senior High School</p>
+          </div>
+
+        </section>
+
+    <!-- SECTION 3: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+
+      <div class="cells">
+        <div class="cell">
+          <endl>
+         <b><span>Front End Development</span></b> 
+         <p>HTML5, CSS3, Bootstrap, React.js</p>
+        </div>
+
+        <div class="cell">
+        <endl>
+        <b><span>Web Design</span></b>
+        <p>Figma, Canva</p>
+        </div>
+
+        <div class="cell">
+        <endl>
+        <b><span>Content Management System & Web Hosting</span></b>
+        <p>WordPress, Hostinger</p>
+        </div>
+        
+        <div class="cell">
+        <endl>
+        <b><span>Search Engine Optimization</span></b>
+         <p>SemRush, Google Analytics</p>
+        </div>
+
+        <div class="cell">
+        <endl>
+        <b><span>Networking</span></b>
+        <p>CISCO Packet Tracer, Wireshark, GNS3</p>
+        </div>
+
+         <div class="cell">
+        <endl> 
+        <b><span>Enterprise Resource Planning</span></b>
+        <p>SAP ERP</p>
+        </div>
+        
+        <div class="cell">
+           <endl>
+         <b><span>SQL & Database</span></b>
+         <p>MySQL, Data Management</p>
+        </div>
+
+         <div class="cell">
+           <endl>
+         <b><span>Robotic Process Automation</span></b>
+         <p>UiPath Studio</p>
+        </div>
+
+         <div class="cell">
+           <endl>
+         <b><span>Programming Languages </span></b>
+         <p>C++, JavaScript, PHP</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION 4: Certifications -->
+
+     <section id="certificate" class="certificate-section">
+      <h2>Certifications</h2>
+
+      <div class="group">
+        <div class="certs">
+              <p><i class="fa-solid fa-network-wired"></i> CCNA: Enterprise Networking, Security, and Automation (CISCO)</p>
+              <p><i class="fa-solid fa-route"></i> CCNA: Switching, Routing, and Wireless Essentials (CISCO)</p>
+              <p><i class="fa-brands fa-github"></i>Let's Git It! (De La Salle Lipa, Feb 2024) </p>
+              <p><i class="fa-solid fa-circle-check"></i>Skills to Succeed (Accenture, Jun 2024) </p>
+              <p><i class="fa-solid fa-chart-line"></i> Smartbooks and Power BI: Basic with Analytics (FITACADEMY)</p>
+              <p><i class="fa-solid fa-shield-halved"></i> HKNL2024: A.I and Cybersecurity</p>
+              <p><i class="fa-solid fa-code"></i> The Complete 2024 Web Development Bootcamp (Udemy)</p>
+              <p><i class="fa-solid fa-headset"></i> Google Technical Support Fundamentals (Coursera)</p>
+              <p><i class="fa-brands fa-google"></i> Google Analytics Certification</p>
+              <p><i class="fa-brands fa-meta"></i> Introduction to Front-End Development (Meta)</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- SECTION 5: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+      <!-- Filter Buttons -->
+      <div class="project-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="networking">Networking</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="graphics">Graphic Design</button>
+      </div>
+
+      <!-- Networking -->
+      <div class="project-category" data-category="networking">
+        <h3>Networking</h3>
+        <div class="group">
+          <div class="person-details">
+            <img id="networkImage" class="project-image" src="images/Network Design.png" alt="Hybrid Network and GLBP topology preview">
+            <div class="project-content">
+              <p>Designing a Hybrid Network and Implementing GLBP for PhilHealth Local Health Insurance Office Lucena</p>
+              <div class="project-buttons">
+                <a href="https://github.com/mjsollestre/Hybrid-Network-GLBP" class="project-btn secondary">
+                  <i class="fa-solid fa-code"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- UI/UX Design -->
+      <div class="project-category" data-category="uiux">
+        <h3>UI/UX Design</h3>
+        <div class="group">
+          <div class="person-details">
+            <p>Portfolio UI Redesign</p>
+            <div class="project-buttons">
+              <a href="#" class="project-btn">
+                <i class="fa-solid fa-image"></i>
+                Preview
+              </a>
+              <a href="#" class="project-btn secondary">
+                <i class="fa-solid fa-file-lines"></i>
+                Case Study
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web Development -->
+      <div class="project-category" data-category="web">
+        <h3>Web Development</h3>
+        <div class="group">
+          <div class="person-details">
+            <img class="project-image" src="images/Weather App.png" alt="Weather App preview">
+            <p>Weather App</p>
+            <div class="project-buttons">
+              <a href="https://mjsollestre.github.io/Weather-App/" class="project-btn">
+                <i class="fa-solid fa-globe"></i>
+                Visit Website
+              </a>
+              <a href="https://github.com/mjsollestre/Weather-App" class="project-btn secondary">
+                <i class="fa-solid fa-code"></i>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="person-details">
+            <img class="project-image" src="images/Pomodoro.png" alt="Pomodoro-Timer-App preview">
+            <p>Pomodoro Timer App</p>
+            <div class="project-buttons">
+              <a href="https://mjsollestre.github.io/Pomodoro-Timer-App/" class="project-btn">
+                <i class="fa-solid fa-globe"></i>
+                Visit Website
+              </a>
+              <a href="#" class="project-btn secondary">
+                <i class="fa-solid fa-code"></i>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphic Design -->
+      <div class="project-category" data-category="graphics">
+        <h3>Graphic Design</h3>
+        <div class="group">
+          <div class="person-details">
+            <p>Branding Poster Set</p>
+            <div class="project-buttons">
+              <a href="#" class="project-btn">
+                <i class="fa-solid fa-image"></i>
+                Preview
+              </a>
+              <a href="#" class="project-btn secondary">
+                <i class="fa-solid fa-file-lines"></i>
+                Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lightbox for full-screen preview -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <img id="lightboxImg" alt="Network Design Full View">
+        <button class="lightbox-close" aria-label="Close">×</button>
+      </div>
+
+    </section>
+
+   
+    <!-- SECTION 6: Experience -->
+
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+
+        <div class="group">
+        <div class="person-details">
+     <p><strong>Junior Website Administrator</strong></p>
+      <p>MGHS Services</p>
+      <p>Team Leader</p>
+      <p>January 2025 – April 2025</p>
+
+<ul>
+<li>Assisted with the website’s visual design with HTML & CSS.</li>
+<li>Developed and managed blogs using WordPress with SEO best practices.</li>
+<li>Conducted keyword research and optimized content to enhance search visibility.</li>
+<li> Designed promotional materials and visuals in Canva to support product marketing.</li>
+<li> Generated SEO performance reports using Semrush and extracted actionable insights.</li>
+<li> Handled website maintenance, backups, and basic troubleshooting.</li>
+<li> Managed social media content to grow online reach and engagement.</li>
+<li> Led a small content team, ensuring project deadlines were met efficiently.</li>
+</ul>
+
+</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 7: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            +63 9239378642 / +63 9190700510
+          </p>
+          <p>
+            <i class="fa-brands fa-linkedin"></i>
+            www.linkedin.com/in/mjsollestre
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            michaeljoshua.sollestre@gmail.com
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            973 Diamond Street, Ilayang Iyam, Lucena City, Quezon Province
+          </p>
+        </div>
+
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="fba15071-47ec-4eea-a2cd-31599694a5b6">
+            
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Your Name" required>
+
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Your Email" required>
+
+          <label for="message">Message</label>
+          <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      
+    </section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>© 2025 Michael Joshua Sollestre | All Rights Reserved</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/mjsollestre/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=michaeljoshua.sollestre@gmail.com" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://github.com/mjsollestre" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  </main>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" title="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Theme Toggle Functionality
+    const lightThemeBtn = document.getElementById('light-theme');
+    const darkThemeBtn = document.getElementById('dark-theme');
+    const body = document.body;
+
+    // Check for saved theme preference or default to light theme
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    
+    // Apply the saved theme
+    if (currentTheme === 'dark') {
+      body.setAttribute('data-theme', 'dark');
+      lightThemeBtn.style.display = 'none';
+      darkThemeBtn.style.display = 'flex';
+    } else {
+      body.removeAttribute('data-theme');
+      lightThemeBtn.style.display = 'flex';
+      darkThemeBtn.style.display = 'none';
+    }
+
+    // Light theme button click (switches to dark mode)
+    lightThemeBtn.addEventListener('click', () => {
+      body.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+      lightThemeBtn.style.display = 'none';
+      darkThemeBtn.style.display = 'flex';
+    });
+
+    // Dark theme button click (switches to light mode)
+    darkThemeBtn.addEventListener('click', () => {
+      body.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'light');
+      lightThemeBtn.style.display = 'flex';
+      darkThemeBtn.style.display = 'none';
+    });
+
+    // Back to Top Button Functionality
+    const backToTopBtn = document.getElementById('backToTop');
+
+    // Show/hide button based on scroll position
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+
+    // Smooth scroll to top when button is clicked
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Project filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const categories = document.querySelectorAll('.project-category');
+
+    function setActiveCategory(filter) {
+      categories.forEach(cat => {
+        const shouldShow = filter === 'all' || cat.dataset.category === filter;
+        cat.classList.toggle('active', shouldShow);
+      });
+    }
+
+    // initialize default: show all
+    setActiveCategory('all');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        setActiveCategory(btn.dataset.filter);
+      });
+    });
+
+    // Lightbox open/close for Network Design image
+    const networkImg = document.getElementById('networkImage');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.querySelector('.lightbox-close');
+
+    if (networkImg && lightbox && lightboxImg) {
+      networkImg.style.cursor = 'zoom-in';
+      networkImg.addEventListener('click', () => {
+        lightboxImg.src = networkImg.src;
+        lightbox.classList.add('show');
+        lightbox.setAttribute('aria-hidden', 'false');
+      });
+
+      const closeLightbox = () => {
+        lightbox.classList.remove('show');
+        lightbox.setAttribute('aria-hidden', 'true');
+      };
+
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+      });
+      lightboxClose.addEventListener('click', closeLightbox);
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+      });
+    }
+  </script>
+
 </body>
+
+</footer>
 </html>
-
-
