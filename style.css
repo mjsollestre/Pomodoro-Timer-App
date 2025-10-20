@@ -1,8 +1,8 @@
 /* Extracted styles from inline <style> in index.html */
 :root {
-  --bg: #0f1220;
-  --panel: #171a2b;
-  --panel-2: #1e2238;
+  --bg: #1a1f3a;
+  --panel: #1f2547;
+  --panel-2: #252b54;
   --text: #e8ecf3;
   --muted: #9aa4b2;
   --primary: #7c5cff;
@@ -17,7 +17,7 @@ html, body { height: 100%; }
 body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-  background: radial-gradient(1200px 800px at 80% -10%, #1c2040, transparent), var(--bg);
+  background: radial-gradient(1200px 800px at 80% -10%, #2a3466, transparent), var(--bg);
   color: var(--text);
   display: grid;
   place-items: center;
