@@ -242,7 +242,7 @@ function App() {
     React.createElement(
       'div',
       { className: 'footer' },
-      React.createElement('div', null, 'Stay focused. Take smart breaks.'),
+      React.createElement('div', null, 'Created by mjsollestre'),
       React.createElement('a', { className: 'link', href: 'https://en.wikipedia.org/wiki/Pomodoro_Technique', target: '_blank', rel: 'noreferrer' }, 'Pomodoro Technique')
     ),
 
